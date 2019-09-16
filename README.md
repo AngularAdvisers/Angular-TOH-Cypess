@@ -18,7 +18,7 @@ npx cypress open
 ```
 A cypress window should open. If it does you are good.
 
-# Modify tsconfig.json
+## Modify tsconfig.json
 
 Add "types": ["cypress"],
 
@@ -47,7 +47,7 @@ Add "types": ["cypress"],
 }
 ```
 
-# Create Integration Directory
+## Create Integration Directory
 
 Under the cyrpess folder create the directory integration and then create the file initial-page.spec.ts
 
@@ -94,7 +94,7 @@ describe('dashboard', () => {
 })
 ```
 
-# Test #5
+## Test #5
 
 ```
 describe('dashboard', () => {
@@ -107,7 +107,7 @@ describe('dashboard', () => {
 })
 ```
 
-# Test #6
+## Test #6
 
 ```
 describe('dashboard', () => {
@@ -121,7 +121,7 @@ describe('dashboard', () => {
 })
 ```
 
-# Test #7
+## Test #7
 
 ```
 describe('dashboard', () => {
@@ -135,7 +135,7 @@ describe('dashboard', () => {
 })
 ```
 
-# Test #8
+## Test #8
 
 ```
 describe('dashboard', () => {
@@ -157,7 +157,7 @@ describe('dashboard', () => {
 })
 ```
 
-# Test #9
+## Test #9
 
 ```
 describe('dashboard', () => {
@@ -185,7 +185,7 @@ describe('dashboard', () => {
 })
 ```
 
-Test #10
+## Test #10
 
 ```
 describe('dashboard', () => {
@@ -215,7 +215,7 @@ describe('dashboard', () => {
 })
 ```
 
-Test #11
+## Test #11
 
 ```
 describe('dashboard', () => {
