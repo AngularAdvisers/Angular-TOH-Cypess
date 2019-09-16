@@ -3,19 +3,31 @@
 
 Angular Tour of Heroes Application with Cypress Testing Framework
 
+## Install Node Packages
+
+```
+npm install
+```
+
 In one terminal run the following command from the root directory for the repo:
+
 ```
 npm run server
 ```
+
 In another terminal run the following command:
+
 ```
 npm start
 ```
+
 then browse to localhost:4200 and make sure that the website is running. 
 Finally double check your cypress installation by running the following command in a 3rd terminal
+
 ```
 npx cypress open
 ```
+
 A cypress window should open. If it does you are good.
 
 ## Modify tsconfig.json
